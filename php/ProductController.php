@@ -7,7 +7,7 @@ use Silex\Application;
  */
 class ProductController {
 
-    private $url = 'http://192.168.0.241/eanlist?type=Web';
+    protected static $url = 'http://192.168.0.241/eanlist?type=Web';
 
     /**
     * @param  $id can be null
